@@ -15,6 +15,6 @@ export default ({ pageContext: { pokemon } }) => (
         </li>
       ))}
     </ul>
-    <Link to="/">Back to all Pokémon</Link>
+    <Link to="/pokemon">Back to all Pokémon</Link>
   </div>
 )
